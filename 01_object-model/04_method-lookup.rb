@@ -1,5 +1,5 @@
 # Method Lookup
-# https://launchschool.com/books/oo_ruby/read/the_object_model
+# https://launchschool.com/books/oo_ruby/read/the_object_model#methodlookup
 
 # Ruby has a distinct lookup method that it follows each time a
 # method is called.

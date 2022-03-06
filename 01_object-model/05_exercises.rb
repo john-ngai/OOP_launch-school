@@ -1,5 +1,5 @@
 # Exercises
-# https://launchschool.com/books/oo_ruby/read/the_object_model
+# https://launchschool.com/books/oo_ruby/read/the_object_model#summary
 
 # 1. How do we create an object in Ruby? Give an example of the creation of an object.
 

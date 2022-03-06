@@ -1,5 +1,5 @@
 # Modules
-# https://launchschool.com/books/oo_ruby/read/the_object_model
+# https://launchschool.com/books/oo_ruby/read/the_object_model#modules
 
 # Modules are another way of achieving pollymorphism in Ruby.
 

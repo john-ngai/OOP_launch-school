@@ -1,5 +1,5 @@
 # Classes Define Objects
-# https://launchschool.com/books/oo_ruby/read/the_object_model
+# https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects
 
 # Ruby defines the attributes and behaviours of it's objects in classes.
   # A class is defined using CamelCase to create the name.
