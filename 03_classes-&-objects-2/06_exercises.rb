@@ -8,8 +8,8 @@ class MyCar
   # Code ommited for brevity...
 
   def self.gas_mileage(litres, km)
-    litres_per_100km = (@tank_capacity / @max_range) * 100
-    return puts "Your car's gas mileage is #{litres_per_100km}/100 km."
+    litres_per_100km = (litres.to_f / km.to_f * 100).round(1)
+    return puts "Your car's gas mileage is #{litres_per_100km} L/100 km."
   end
 
   def to_s
@@ -17,6 +17,7 @@ class MyCar
   end
 end
 
+MyCar.gas_mileage(90, 463)
 
 =begin
 3. Fix the error in the following code:
@@ -46,3 +47,4 @@ end
 
 bob = Person.new("Steve")
 bob.name = "Bob"
+puts bob.name
