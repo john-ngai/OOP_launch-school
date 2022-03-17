@@ -29,7 +29,7 @@
 
 # Using Modules as Containers (a.k.a Module Methods)
 module Mammal
-  # Similar to class methods, always prepend the method name with the
+  # Similar to class methods, always prepend module methods with the
   # reserved word, 'self'.
   def self.speak(sound)
     return puts sound

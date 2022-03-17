@@ -6,7 +6,7 @@
   # The class that passes the inheritance is called the 'superclass'.
 
 
-# Example 1 - Extracting a 'speak' method to an 'Animal' Superclass
+# Example 1 - Extracting a 'speak' method from an 'Animal' Superclass
 class Animal
   def speak
     return "Hello"
@@ -43,5 +43,5 @@ puts sparky.speak # => 'Sparky says arf! '
 puts paws.speak # => 'Hello!'
 
 # We're able to override the 'speak' method from the Animal class because Ruby
-# check's for the method within the object's class FIRST before the superclass.
+# check's for the method within the object's class FIRST, before the superclass.
   # Inheritance reduces avoidable duplications and keeps your code DRY.

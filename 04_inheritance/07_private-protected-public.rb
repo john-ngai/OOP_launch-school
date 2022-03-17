@@ -21,7 +21,7 @@ class GoodDog
   end
 
   # The 'human_years' method is still accessible by other methods in the class.
-  # However, calling 'self.human_years' won't work in Ruby v2.7 or older.
+  # NOTE: Calling 'self.human_years' won't work in Ruby v2.7 or older.
   def public_disclosure
     return "#{@name} in human years is #{human_years}"
   end

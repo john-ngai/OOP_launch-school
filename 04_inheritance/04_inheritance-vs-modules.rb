@@ -1,11 +1,11 @@
 # Inheritance vs Modules
-# https://launchschool.com/books/oo_ruby/read/inheritance#inheritancevsmodules
+# https://launchschool.com/books/ oo_ruby/read/inheritance#inheritancevsmodules
 
 # Class inheritance is the traditional way to think about inheritance.
   # One type inherits behaviours from another type.
-# The other form commonly referred to as 'interface inheritance'.
-  # Instead of inheriting from another type, the inheritance is provided
-  # by the interface mixin module.
+# The other form is commonly referred to as 'interface inheritance'.
+  # Instead of inheriting from another type, the inheritance comes from the
+  # interface provided by the mixin module.
 
 
 # When to Use Class Inheritance vs Mixins?
@@ -19,4 +19,3 @@
   # 3. You cannot instantiate modules (i.e. create an object). Instead,
   # modules are meant to be used for namespacing and grouping common
   # methods together.
-
