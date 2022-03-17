@@ -2,8 +2,8 @@
 # https://launchschool.com/books/oo_ruby/read/classes_and_objects_part2#theto_smethod
 
 # The 'to_s' method is built into every class in Ruby.
-  # Knowing when 'to_s' is called will help us understand read and write
-  # better OO code.
+  # Knowing when 'to_s' is called will help us understand how to read and
+  # write better object-oriented code.
 
 # Example 1 - puts & to_s
 sparky = GoodDog.new("Sparky")
