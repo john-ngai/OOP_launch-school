@@ -29,7 +29,7 @@ Sparky = GoodDog.new("Sparky")
 puts Sparky.name # => "Sparky"
 
 # The special ruby setter method (name=) syntax allows us to use a more natural
-# assignment syntax, instead of 'sparky.set_name=("Spartacus")'.
+# assignment syntax, instead of 'sparky.name=("Spartacus")'.
 Sparky.name = "Spartacus" 
 
 puts Sparky.name # => "Spartacus"
